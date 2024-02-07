@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style5.css">
+</head>
+<body>
+    <p>Lorem ipsum dolor sit, amet consectetur 
+        adipisicing elit. Distinctio incidunt dolor 
+        quidem vero perferendis asperiores. Magnam nisi 
+        eritatis nobis laudantium consectetur maiores est, 
+        sint sed dolor rerum, nemo illo ipsam.</p>
+    <p>Eius quia quae deleniti doloremque accusamus 
+        iste impedit, dolore excepturi dolor soluta 
+        ipsa magni, molestias eaque itaque ducimus in 
+        necessitatibus aut atque nesciunt nisi, dicta mollitia 
+        vel totam? Non, illum!</p>
+        
+        <button id="btn">Schimba CSS</button>
+        <div class ="div-left">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo vero hic est ut veritatis nulla quaerat, rerum voluptates amet doloremque nesciunt beatae ullam vel eligendi mollitia libero. Aspernatur, temporibus culpa.</p>
+            <p>Nobis autem blanditiis placeat, aspernatur, voluptas quia harum suscipit accusantium neque nostrum consequuntur culpa veritatis optio deleniti, quaerat facere voluptatibus odit nisi minus commodi delectus qui recusandae tempora? Exercitationem, vero!</p>
+            <p>Necessitatibus dolor ex est, aliquam voluptatem modi optio quis repudiandae voluptate harum! Cumque amet reiciendis similique dignissimos eos repellat, rem quis beatae repudiandae, sunt suscipit inventore ut ea exercitationem ex.</p>
+            <p>Nemo nihil a optio id, similique quae ipsa debitis cumque ipsum totam veniam dolor rem nobis, sunt ducimus. Reprehenderit hic quibusdam praesentium fugit quo nihil necessitatibus aliquam iste possimus exercitationem?</p>
+            <p>Tempore quia tenetur, iure totam obcaecati unde amet doloribus quae, dicta incidunt natus, aliquam ullam eaque aliquid vero cumque! Deleniti ipsam consequatur incidunt excepturi illo. Praesentium odio fuga corporis consequatur.</p>
+        </div>
+        <div class="div=right">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat aperiam, blanditiis ipsa inventore provident quas accusantium reiciendis qui reprehenderit earum ad repudiandae soluta delectus. Illo aut placeat sequi ducimus iure.</p>
+            <p>Perspiciatis eligendi commodi aspernatur repellendus soluta dolorem ab necessitatibus accusantium reiciendis blanditiis animi ipsam officiis, nihil culpa nisi expedita atque nulla veritatis voluptatem saepe porro nam iusto? Ab, quae tempora.</p>
+            <p>Soluta natus assumenda nam quasi, odio suscipit maiores veritatis ullam earum iste illo, eum quia atque quidem quisquam libero a delectus expedita similique autem deleniti incidunt. Impedit similique deleniti optio!</p>
+            <p>Obcaecati, accusamus fugiat temporibus architecto ex quibusdam impedit ut nemo eos mollitia harum ratione eligendi corporis quos. Quasi iusto officia harum, quibusdam illo nobis qui, aspernatur minima voluptatum corrupti id?</p>
+            <p>Incidunt libero, accusantium repellat facilis alias omnis magnam possimus iusto consequuntur provident explicabo rem voluptatibus nam commodi suscipit recusandae ipsa nihil at unde consequatur! Sint impedit quidem illo totam deserunt.</p>
+        </div>
+
+<script>
+    let btn = document.getElementById('btn');
+    btn.addEventListener('click', function (){
+        let myParagraphs = document.querySelectorAll('body > p');
+       /// let myParagraphs2 = document.getElementsByTagName(p);
+       alert(myParagraphs.length);
+       for(let i =0; i < myParagraphs.length; i++){
+        myParagraphs[i].style.color= 'red';
+        myParagraphs[i].style.fontSize = '18px';
+       }
+       ///myParagraphs.forEach( function(value){
+        ///value.style.color = 'red';
+        ///value.style.color = '18px';
+      /// })
+
+      })
+    
+
+
+</script>
+</body>
+</html>
